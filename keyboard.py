@@ -1,6 +1,6 @@
 from aiogram.types import Message, ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardRemove, ContentType
 
-channel_dao_link = 'https://t.me/gobdao'
+channel_dao_link = 'https://t.me/chunks_EN'
 channel_chunks_link = 'https://t.me/chunks_token'
 
 def main_menu():

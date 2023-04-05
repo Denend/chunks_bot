@@ -29,11 +29,11 @@ class CaptchaGroup(StatesGroup):
 class WalletGroup(StatesGroup):
 	new_wallet = State()
 
-user_bot = 'TEST0206_BOT'
+user_bot = 'chunks_token_bot'
 
 token_url = 'https://arbiscan.io/token/'
 
-channel_dao = -1001792570904
+channel_dao = -1800417419
 channel_chunks = -1001856863117
 
 alphabet = ["а","б","в","г","д","е","ё","ж","з","и","й","к","л","м","н","о",
