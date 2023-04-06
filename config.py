@@ -33,7 +33,7 @@ user_bot = 'chunks_token_bot'
 
 token_url = 'https://arbiscan.io/token/'
 
-channel_dao = -1800417419
+channel_dao = -1001800417419
 channel_chunks = -1001856863117
 
 alphabet = ["а","б","в","г","д","е","ё","ж","з","и","й","к","л","м","н","о",
