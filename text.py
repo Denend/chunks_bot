@@ -45,28 +45,23 @@ GOB/USDT - Gate.IO: https://www.gate.io/trade/GOB_USDT'''
 def run_1_text():
 	text = '''Our giveaway bot has a wheel of fortune system, below are the rules for using it:
 
-🟡 Upon passing all stages of tasks (social media subscription + 3 invite friends), any user is entitled to one Free use of Wheel of Fortune 💪
-
-🟡 For every 10 friends you get extra points to use Wheel of Fortune, there is no limit on the number of attempts.
-
-Only users who have completed all tasks are counted.
-
+🟡 Upon passing all the tasks (socials subscriptions + invite 3 friends), your 3 invitees must each invite 3 of their own friends.  This will trigger your eligibility for 1 free Wheel of Fortune spin, packed with a basket of NFT and token prizes 💪
 What prizes are  in the bot?
 
 Top 10 Activity Raiders📚
 
-1 x $GOON NFTs (~0.10 ETH current floor)
-3 x $GOB tokens (5000 each)
-3 x WOB Lands NFTs (~0.028 ETH current floor)
-3 x BOD NFTs (~0.028 ETH current floor)
+1 x $GOON NFTs
+3 x $GOB tokens
+3 x WOB Lands NFTs
+3 x BOD NFTs
 
 
-3 Card Pack (5 cards) (~0.0062 ETH current floor)
-2 Card Pack (~0.006 ETH current floor)
-1 Card Pack (~0.006 ETH current floor)
-3 Bonus Card Pack (1 card) (~0.003 ETH current floor)
-2 Bonus Card Pack (1 card) (~0.003 ETH current floor)
-1 Bonus Card Pack (1 card) (~0.003 ETH current floor)
+3 Card Pack (5 cards)
+2 Card Pack
+1 Card Pack
+3 Bonus Card Pack (1 card)
+2 Bonus Card Pack (1 card)
+1 Bonus Card Pack (1 card)
 
 Total prize pool value: ~$750 weekly
 

@@ -108,8 +108,9 @@ async def start_bot(message):
 		return await CaptchaGroup.captcha.set()
 
 	if select_verif is None:
-		await bot.send_message(
+		await bot.send_photo(
 			id_user,
+			open('img/GoBonus_menu.png', 'rb'),
 			run_1_text(),
 			reply_markup=run_1()
 			)
@@ -393,8 +394,9 @@ async def captcha(message, state: FSMContext):
 			id_user,
 			'Correct!'
 			)
-		await bot.send_message(
+		await bot.send_photo(
 			id_user,
+			open('img/GoBonus_menu.png', 'rb'),
 			run_1_text(),
 			reply_markup=run_1()
 			)
