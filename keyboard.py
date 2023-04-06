@@ -28,7 +28,7 @@ def kb_check_ref():
 
 def kb_check_sub():
 	kb = InlineKeyboardMarkup().add(
-		InlineKeyboardButton(text='GOB DAO', url=channel_dao_link),
+		InlineKeyboardButton(text='CHUNKS CHAT', url=channel_dao_link),
 		InlineKeyboardButton(text='Chunks - RiskFi Token', url=channel_chunks_link)).add(
 		InlineKeyboardButton(text='Check', callback_data='check')
 		)

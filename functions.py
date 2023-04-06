@@ -44,11 +44,11 @@ async def startig_func(id_user, msg_id, user_first_name, types):
 		select_quantity_ref = cursor.execute(f'SELECT quantity_ref FROM users WHERE user_id = {id_user}').fetchone()[0]
 		await bot.send_message(
 			id_user,
-			f'''You ll get one free wheel spin for every 3 people you invite. One invited person is considered valid only if invites 3+ people
+			f'''You'll get one free wheel spin for every 3 people you invite. One invite is considered valid only they also invite 3+ people. All the invitees must join $Chunks telegram chat, follow $Chunks twitter and subscribe to $Chunks telegram announcements channel. Once you are eligible for the spin, please enter your Metamask wallet address. Top referrer wallets will show on the leaderboard and will be validated on web3 engage-2-earn platforms.
 
 Your referral: <code>https://t.me/{user_bot}?start={id_user}</code>
 
-<b>It remains to invite:</b> {str(select_quantity_ref - 3)[1:]}''',
+<b>Invites remaining:</b> {str(select_quantity_ref - 3)[1:]}''',
 			parse_mode='HTML',
 			reply_markup=kb_check_ref()
 			)
