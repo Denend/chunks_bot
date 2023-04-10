@@ -319,7 +319,7 @@ Goon NFT: <b>{select_awards[11]}pc</b>''',
 		await bot.delete_message(id_user, msg_id)
 		await bot.send_message(
 			id_user,
-			f'You ll get one free wheel spin for every 3 people you invite. One invited person is considered valid only if invites 3+ people\n\nYour referral: <code>https://t.me/{user_bot}?start={id_user}</code>',
+			f'''You ll get one free wheel spin for every 3 people you invite. One invited person is considered valid only if invites 3+ people\n\nYour referral: <code>https://t.me/{user_bot}?start={id_user}</code>\n\nyour wallet and your referral's wallets must be active on EVM chains for longer than 3 months and show clear transaction use. Brand new or empty wallets will be disqualified''',
 			parse_mode='HTML',
 			reply_markup=kb_main_menu()
 			)
@@ -414,13 +414,13 @@ async def get_wallet(message, state: FSMContext):
 		if x in msg_text.lower():
 			return await bot.send_message(
 				id_user,
-				'Enter a valid <b>albitrum one</b> address',
+				'Enter a valid <b>0x EVM</b> address',
 				parse_mode='HTML'
 				)
 	if len(msg_text) < 20:
 		return await bot.send_message(
 			id_user,
-			'Enter a valid <b>albitrum one</b> address',
+			'Enter a valid <b>0x EVM</b> address',
 			parse_mode='HTML'
 			)
 
@@ -428,7 +428,7 @@ async def get_wallet(message, state: FSMContext):
 	if select_wallet is not None:
 		return await bot.send_message(
 			id_user,
-			'This address was previously specified! Please enter the new address of <b>albitrum one</b>',
+			'This address was previously specified! Please enter the new address of <b>0x EVM</b>',
 			parse_mode='HTML'
 			)
 	data_wallet = await state.get_data()

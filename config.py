@@ -31,7 +31,7 @@ class WalletGroup(StatesGroup):
 
 user_bot = 'chunks_token_bot'
 
-token_url = 'https://arbiscan.io/token/'
+token_url = 'https://debank.com/profile/'
 
 channel_dao = -1001800417419
 channel_chunks = -1001856863117

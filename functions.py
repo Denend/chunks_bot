@@ -61,7 +61,7 @@ Your referral: <code>https://t.me/{user_bot}?start={id_user}</code>
 				)
 		await bot.send_message(
 				id_user,
-				f'<b>{user_first_name}</b>, enter you <b>albitrum one</b> wallet address',
+				f'''<b>{user_first_name}</b>, enter your <b>0x EVM</b> wallet address\n\nyour wallet and your referral's wallets must be active on EVM chains for longer than 3 months and show clear transaction use. Brand new or empty wallets will be disqualified''',
 				parse_mode='HTML'
 				)
 		await WalletGroup.new_wallet.set()
